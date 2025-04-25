@@ -1,5 +1,12 @@
 # Research Assistant with LLM
 
+> ⚠️ **Non-Commercial Use Only:**  
+> This code is provided for research and personal use only. Commercial use is strictly prohibited.  
+> Please contact the repository owner for any commercial licensing inquiries.
+
+
+
+
 This project is an AI-powered research assistant built using **Streamlit**, **Langchain**, and **Google GenerativeAI SDK (Gemini)**. The app helps users to input research queries and get detailed answers based on available data. The system first tries to fetch the results from a cached memory and, if not available, runs the full agent pipeline to generate an answer, which is then cached for future queries.
 
 ## Features
