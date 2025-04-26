@@ -7,7 +7,7 @@
 
 
 
-This project is an AI-powered research assistant built using **Streamlit**, **Langchain**, and **Google GenerativeAI SDK (Gemini)**. The app helps users to input research queries and get detailed answers based on available data. The system first tries to fetch the results from a cached memory and, if not available, runs the full agent pipeline to generate an answer, which is then cached for future queries.
+This project is an AI-powered research assistant built using **Streamlit**, **Langchain**, **Tavily**, and **Google GenerativeAI SDK (Gemini)**. The app helps users to input research queries and get detailed answers based on available data. The system first tries to fetch the results from a cached memory and, if not available, runs the full agent pipeline to generate an answer, which is then cached for future queries.
 
 ## Features
 
@@ -22,6 +22,7 @@ Before running the app, make sure you have the following dependencies installed:
 
 - **Streamlit**: Web framework for building the app interface.
 - **Langchain**: Python library for managing chains of language models.
+- **Tavily**: Tavily’s API for searching.
 - **Google GenerativeAI SDK (Gemini)**: Google’s API for language models.
 - **Dotenv**: For managing environment variables like API keys.
   
